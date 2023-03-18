@@ -2,7 +2,7 @@
 /**
 * main - entry point
 *
-* return: reutns  nothing
+* Return: reutns  nothing
  */
 int main(void)
 {
