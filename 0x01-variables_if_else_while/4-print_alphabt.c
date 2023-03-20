@@ -11,7 +11,7 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c == 'e' || C == 'q')
+		if (c == 'e' || c == 'q')
 		{
 			c++;
 		} else
