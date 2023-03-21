@@ -19,7 +19,7 @@ int main(void)
 			for (k = j + 1; k < 10; k++)
 			{
 				for (l = k + 1; l < 10; l++)
-					
+				{
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
@@ -30,6 +30,7 @@ int main(void)
 					putchar(' ');
 					}
 					l = 0;
+				}
 			}
 		}
 	}
