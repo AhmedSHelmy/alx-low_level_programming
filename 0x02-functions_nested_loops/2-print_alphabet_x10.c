@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* print_alphabet - prints the alphabet followed by a new line
+* print_alphabet_x10 - prints the alphabet followed by a new line
 */
-void print_alphabet_x1(void)
+void print_alphabet_x10(void)
 {
 	int i =0;
 	while (i != 10 )
