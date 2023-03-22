@@ -1,8 +1,6 @@
 #include "main.h"
 /**
-print_alphabet - prints the alphabet followed by a new line
-*
-Return: nothing
+* print_alphabet - prints the alphabet followed by a new line
 */
 void print_alphabet(void)
 {
@@ -11,6 +9,7 @@ void print_alphabet(void)
 	while (a <= 'z')
 	{
 		_putchar(a);
+		a++;
 	}
 	_putchar('\n');
 }
