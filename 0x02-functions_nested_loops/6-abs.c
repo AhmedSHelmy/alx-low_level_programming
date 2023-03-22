@@ -4,7 +4,7 @@
 *
 * Return: returns the absolute value of an integer.
 */
-int print_sign(int n)
+int _abs(int n)
 {
 	if (n >= 0)
 	{
