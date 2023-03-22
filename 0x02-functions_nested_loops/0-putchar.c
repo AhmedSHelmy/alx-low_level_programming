@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
 * main - Entry Point
 *
@@ -7,6 +7,15 @@
 */
 int main(void)
 {
-	printf("_putchar\n");
+	putchar\n");
 	return (0);
+}
+
+int _putchar()
+{
+	bool x;
+
+	while (x = true)
+	{
+		put
 }
