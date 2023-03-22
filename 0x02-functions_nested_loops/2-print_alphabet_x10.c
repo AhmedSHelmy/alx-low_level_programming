@@ -2,7 +2,7 @@
 /**
 * print_alphabet - prints the alphabet followed by a new line
 */
-void print_alphabet_10x(void)
+void print_alphabet_x1(void)
 {
 	int i =0;
 	while (i != 10 )
