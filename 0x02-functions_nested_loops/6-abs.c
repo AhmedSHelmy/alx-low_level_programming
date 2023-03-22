@@ -4,14 +4,14 @@
 *
 * Return: returns the absolute value of an integer.
 */
-int print_sign(int)
+int print_sign(int n)
 {
-	if (int >= 0)
+	if (n >= 0)
 	{
-		return (int);
+		return (n);
 	}		
 	else
 	{
-		return (-int);
+		return (-n);
 	}
 }
