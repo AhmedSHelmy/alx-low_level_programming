@@ -21,14 +21,14 @@ void times_table(void)
 				_putchar(x + '0');
 				_putchar(',');
 			}
-			else if (j == 9)
+			else if (j > 0 && j < 9)
 			{
 				print_number(x);
+				_putchar(',');
 			}
 			else 
 			{
 				print_number(x);
-				_putchar(',');
 			}
 		}
 		_putchar('\n');
@@ -47,7 +47,7 @@ void print_number(int x)
 	{
 		_putchar(' ');
 		_putchar(x / 10 + '0');
-		_putcahr(x & 10 + '0');
+		_putchar(x & 10 + '0');
 	}
 	else
 	{
