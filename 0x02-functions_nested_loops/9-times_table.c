@@ -12,10 +12,10 @@ void times_table(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		int x = i * j;
-
 		for (j = 0; j < 9; j++)
 		{
+			int x = i * j;
+
 			if (j == 0)
 			{
 				_putchar(x + '0');
