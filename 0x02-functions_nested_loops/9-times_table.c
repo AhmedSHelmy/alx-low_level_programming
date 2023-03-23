@@ -12,11 +12,28 @@ void times_table(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			_putchar(i * j + '0');
+			_putchar(_abs(i * j) + '0');
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
 		}
 		_putchar('\n');
+	}
+}
+/**
+* _abs - computes the absolute value of an integer.
+* @n: the number to compute
+*
+* Return: returns the absolute value of an integer.
+*/
+int _abs(int n)
+{
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return (-n);
 	}
 }
